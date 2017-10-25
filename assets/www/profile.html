@@ -1,0 +1,70 @@
+<!DOCTYPE html> 
+<html> 
+	<head>
+  <meta charset="UTF-8">	
+	<title>UniChat</title> 
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<link rel="stylesheet" href="jquery.mobile.structure-1.0.1.css" />
+	<link rel="apple-touch-icon" href="images/launch_icon_57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="images/launch_icon_72.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="images/launch_icon_114.png" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+</head> 
+
+
+<body> 
+<div data-role="page" id="home" data-theme="c">
+
+	<div data-role="content">
+
+		<img src="img/logo.png">
+
+		<br>
+		<div style="width: 100%; height: 120px; text-align: center ;">
+		<h3>Pikachu</h3>
+		<img src="img/pikachu.png" style="width: 115px;">
+		<h5>This is all about me.</h5>
+		
+<a href="#popupMenu" data-rel="popup" data-transition="slideup" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-gear ui-btn-icon-left ui-btn-a">Edit</a>
+<div data-role="popup" id="popupMenu" data-theme="b">
+        <ul data-role="listview" data-inset="true" style="min-width:210px;">
+            <li data-role="list-divider">Edit</li>
+            <li><a href="#">Photo</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Change passwords</a></li>
+
+        </ul>
+</div>
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<a href="index.html" data-role="button" rel="external" style="color: red;"> Log Out </a>
+
+	</div>
+
+	<div data-role="footer" data-position="fixed">		
+		<div data-role="navbar">
+			<ul>
+				<li><a href="home.html" rel="external" data-icon="home">Chats</a></li>
+				<li><a href="friend.html" rel="external" data-icon="plus">Friends</a></li>
+				<li><a href="group.html" rel="external" data-icon="grid">Groups</a></li>
+				<li><a href="post.html" rel="external" data-icon="star">Posts</a></li>
+				<li><a href="profile.html" class="ui-btn-active ui-state-persist" rel="external" data-icon="gear">Profile</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+</body>
+</html>
